@@ -1,6 +1,6 @@
 #Editors
-.idea
-.vsc
+**/.idea
+**/.vsc
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
