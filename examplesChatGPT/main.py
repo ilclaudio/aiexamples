@@ -1,3 +1,8 @@
+# The code of these examples is inspired by the code of the Deeplearning.ai courses:
+# - https://www.deeplearning.ai/short-courses
+# This repository is used only for personal study purposes.
+# To learn more about these topics, refer to the excellent courses of Deeplearning.ai.
+
 import openai
 import os
 
