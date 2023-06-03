@@ -20,12 +20,12 @@ def ask_chatgpt(messages,
     return response
 
 
-def getDelimiter():
+def getDelimeter():
     return "####"
 
 
 def getSystemMessage():
-    delimiter = getDelimiter()
+    delimiter = getDelimeter()
     system_message = f"""
 You will be provided with customer service queries. \
 The customer service query will be delimited with \
@@ -66,13 +66,13 @@ Speak to a human
 
 
 def getUserMessage1():
-    delimiter = getDelimiter()
+    delimiter = getDelimeter()
     user_message = f"""Tell me more about your flat screen tvs"""
     return user_message
 
 
 def getUserMessage2():
-    delimiter = getDelimiter()
+    delimiter = getDelimeter()
     user_message = f"""How old are you?"""
     return user_message
 
@@ -83,7 +83,7 @@ if __name__ == '__main__':
 
     system_message = getSystemMessage()
     user_message = getUserMessage2()
-    delimiter = getDelimiter();
+    delimiter = getDelimeter();
 
     user_message = f"""\
     How old are you?"""
